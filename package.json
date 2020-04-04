@@ -1,0 +1,24 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzhongyi/leetcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuzhongyi/leetcode/issues"
+  },
+  "homepage": "https://github.com/fuzhongyi/leetcode#readme",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.4.0",
+    "@vuepress/plugin-back-to-top": "^1.4.0"
+  }
+}
