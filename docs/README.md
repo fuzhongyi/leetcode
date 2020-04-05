@@ -15,4 +15,4 @@ footer: MIT Licensed | Copyright © 2020-present Evan You
 
 # Hello VuePress
 
-巴拉巴拉
+巴拉巴拉巴拉
