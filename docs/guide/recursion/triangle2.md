@@ -21,16 +21,13 @@
  * @return {number[][]}
  */
 var getRow = function(rowIndex) {
-  var res = [];
-  for ( var col = 0 ; col <= rowIndex ; col++ ) {
-      res.push(helper(rowIndex, col));
-  }
-  return res;
+    if (rowIndex === 0) return [1];
+    if (rowIndex === 1) return [1, 1];
+    var result = arguments.callee(rowIndex - 1);
+    result.unshift(1);
+    for (let i = 1; i < rowIndex; i++) {
+        result[i] = result[i] + result[i + 1];
+    }
+    return result;
 };
-
-function helper(row, col) {
-    if(col === 0) return 1;
-    if(col === row) return 1;
-    return helper(row-1, col-1) + helper(row-1, col);
-}
 ```
