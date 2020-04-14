@@ -1,6 +1,6 @@
 # 杨辉三角
 
-给定一个非负整数 _numRows_，生成杨辉三角的前 _numRows_ 行。
+给定一个非负整数 *numRows*，生成杨辉三角的前 *numRows* 行。
 
 ![杨辉三角](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
