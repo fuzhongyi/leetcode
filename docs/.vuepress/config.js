@@ -19,6 +19,7 @@ module.exports = {
             "/guide/recursion/principle",
             "/guide/recursion/print-reverse",
             "/guide/recursion/swap-pairs",
+            "/guide/recursion/triangle",
           ],
         },
       ],
