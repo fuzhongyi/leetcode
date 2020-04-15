@@ -3,8 +3,8 @@
   "description": "leetcode 题解，记录自己 leetcode 的解题之路",
   "version": "1.0.0",
   "scripts": {
-    "doc:dev": "vuepress dev docs",
-    "doc:build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
