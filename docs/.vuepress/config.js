@@ -22,6 +22,7 @@ module.exports = {
             "/guide/recursion/swap-pairs",
             "/guide/recursion/triangle",
             "/guide/recursion/triangle2",
+            "/guide/recursion/reverse-list",
           ],
         },
       ],
