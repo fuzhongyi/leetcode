@@ -8,6 +8,7 @@ npm run docs:build
 
 git add dist
 git commit -m ':ghost: deploy'
+git push
 
 # 将 dist 目录推送到 gh-pages 分支
 git subtree push --prefix dist origin gh-pages
