@@ -26,6 +26,7 @@ module.exports = {
             "/guide/recursion/triangle",
             "/guide/recursion/triangle2",
             "/guide/recursion/reverse-list",
+            "/guide/recursion/fibonacci",
           ],
         },
       ],
