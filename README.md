@@ -11,3 +11,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [反转链表](./docs/guide/recursion/reverse-list.md)
   + [斐波那契数](./docs/guide/recursion/fibonacci.md)
   + [爬楼梯](./docs/guide/recursion/climb-stairs.md)
+  + [Pow(x, n)](./docs/guide/recursion/pow.md)
