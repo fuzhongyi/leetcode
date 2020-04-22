@@ -14,3 +14,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [斐波那契数](./recursion/fibonacci.md)
   + [爬楼梯](./recursion/climb-stairs.md)
   + [Pow(x, n)](./recursion/pow.md)
+  + [合并两个有序链表](./recursion/merge-two-lists.md)

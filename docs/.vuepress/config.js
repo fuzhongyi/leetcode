@@ -29,6 +29,7 @@ module.exports = {
             "/guide/recursion/fibonacci",
             "/guide/recursion/climb-stairs",
             "/guide/recursion/pow",
+            "/guide/recursion/merge-two-lists",
           ],
         },
       ],
