@@ -35,7 +35,7 @@ module.exports = {
         {
           title: "数组",
           collapsable: false,
-          children: ["/guide/array/move-zeroes"],
+          children: ["/guide/array/move-zeroes", "/guide/array/remove-element"],
         },
       ],
     },

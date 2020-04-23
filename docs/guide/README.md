@@ -18,3 +18,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
 
 + 数组
   + [移动零](./array/move-zeroes.md) [#283](https://leetcode-cn.com/problems/move-zeroes/)
+  + [移除元素](./array/remove-element.md) [#27](https://leetcode-cn.com/problems/remove-element/)
