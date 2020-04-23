@@ -32,6 +32,11 @@ module.exports = {
             "/guide/recursion/merge-two-lists",
           ],
         },
+        {
+          title: "数组",
+          collapsable: false,
+          children: ["/guide/array/move-zeroes"],
+        },
       ],
     },
   },
