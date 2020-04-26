@@ -39,6 +39,7 @@ module.exports = {
             "/guide/array/move-zeroes",
             "/guide/array/remove-element",
             "/guide/array/remove-duplicates",
+            "/guide/array/remove-duplicates2",
           ],
         },
       ],
