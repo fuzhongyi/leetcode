@@ -19,3 +19,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [移除元素](./docs/guide/array/remove-element.md) [#27](https://leetcode-cn.com/problems/remove-element/)
   + [删除排序数组中的重复项](./docs/guide/array/remove-duplicates.md) [#26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
   + [删除排序数组中的重复项II](./docs/guide/array/remove-duplicates2.md) [#80](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
+  + [颜色分类](./docs/guide/array/sort-colors.md) [#75](https://leetcode-cn.com/problems/sort-colors/)

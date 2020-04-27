@@ -40,6 +40,7 @@ module.exports = {
             "/guide/array/remove-element",
             "/guide/array/remove-duplicates",
             "/guide/array/remove-duplicates2",
+            "/guide/array/sort-colors",
           ],
         },
       ],
