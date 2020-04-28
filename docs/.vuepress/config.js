@@ -45,6 +45,7 @@ module.exports = {
             "/guide/array/merge-sorted-array",
             "/guide/array/two-sum",
             "/guide/array/is-palindrome",
+            "/guide/array/reverse-vowels",
           ],
         },
       ],
