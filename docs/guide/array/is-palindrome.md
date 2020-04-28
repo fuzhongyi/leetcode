@@ -26,11 +26,11 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-    var arr = s.replace(/[^0-9a-zA-Z]/g,"").toLowerCase().split("");
+    s = s.replace(/[^0-9a-zA-Z]/g,"").toLowerCase();
     var i = 0;
-    var half = Math.floor(arr.length / 2);
+    var half = Math.floor(s.length / 2);
     while (i <= half) {
-        if ( arr[i] !== arr[arr.length - 1 - i]) {
+        if ( s.charAt(i) !== s.charAt(s.length - 1 - i)) {
            return false;
         }
         i++;
