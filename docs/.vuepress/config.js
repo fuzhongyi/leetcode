@@ -44,6 +44,7 @@ module.exports = {
             "/guide/array/find-kth-largest",
             "/guide/array/merge-sorted-array",
             "/guide/array/two-sum",
+            "/guide/array/is-palindrome",
           ],
         },
       ],
