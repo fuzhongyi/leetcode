@@ -43,6 +43,7 @@ module.exports = {
             "/guide/array/sort-colors",
             "/guide/array/find-kth-largest",
             "/guide/array/merge-sorted-array",
+            "/guide/array/two-sum",
           ],
         },
       ],
