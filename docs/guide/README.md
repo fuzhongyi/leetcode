@@ -23,3 +23,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [删除排序数组中的重复项II](./array/remove-duplicates2.md) [#80](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
   + [颜色分类](./array/sort-colors.md) [#75](https://leetcode-cn.com/problems/sort-colors/)
   + [数组中的第K个最大元素](./array/find-kth-largest.md) [#215](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+  + [合并两个有序数组](./array/merge-sorted-array.md) [#88](https://leetcode-cn.com/problems/merge-sorted-array/)

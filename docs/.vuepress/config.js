@@ -42,6 +42,7 @@ module.exports = {
             "/guide/array/remove-duplicates2",
             "/guide/array/sort-colors",
             "/guide/array/find-kth-largest",
+            "/guide/array/merge-sorted-array",
           ],
         },
       ],
