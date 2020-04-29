@@ -25,3 +25,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [两数之和II - 输入有序数组](./docs/guide/array/two-sum.md) [#167](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
   + [验证回文串](./docs/guide/array/is-palindrome.md) [#125](https://leetcode-cn.com/problems/valid-palindrome/)
   + [反转字符串中的元音字母](./docs/guide/array/reverse-vowels.md) [#345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+  + [盛最多水的容器](./docs/guide/array/container-with-most-water.md) [#11](https://leetcode-cn.com/problems/container-with-most-water/)

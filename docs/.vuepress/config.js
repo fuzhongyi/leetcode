@@ -46,6 +46,7 @@ module.exports = {
             "/guide/array/two-sum",
             "/guide/array/is-palindrome",
             "/guide/array/reverse-vowels",
+            "/guide/array/container-with-most-water",
           ],
         },
       ],
