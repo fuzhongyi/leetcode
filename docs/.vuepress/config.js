@@ -47,6 +47,7 @@ module.exports = {
             "/guide/array/is-palindrome",
             "/guide/array/reverse-vowels",
             "/guide/array/container-with-most-water",
+            "/guide/array/min-sub-array-len",
           ],
         },
       ],
