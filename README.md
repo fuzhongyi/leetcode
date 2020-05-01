@@ -27,3 +27,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [反转字符串中的元音字母](./docs/guide/array/reverse-vowels.md) [#345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
   + [盛最多水的容器](./docs/guide/array/container-with-most-water.md) [#11](https://leetcode-cn.com/problems/container-with-most-water/)
   + [长度最小的子数组](./docs/guide/array/min-sub-array-len.md) [#209](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+  + [三数之和](./docs/guide/array/three-sum.md) [#15](https://leetcode-cn.com/problems/3sum/)

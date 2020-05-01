@@ -48,6 +48,7 @@ module.exports = {
             "/guide/array/reverse-vowels",
             "/guide/array/container-with-most-water",
             "/guide/array/min-sub-array-len",
+            "/guide/array/three-sum",
           ],
         },
       ],
