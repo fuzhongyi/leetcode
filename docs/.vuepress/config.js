@@ -49,6 +49,7 @@ module.exports = {
             "/guide/array/container-with-most-water",
             "/guide/array/min-sub-array-len",
             "/guide/array/three-sum",
+            "/guide/array/find-length-of-lcis",
           ],
         },
       ],
