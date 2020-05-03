@@ -50,6 +50,7 @@ module.exports = {
             "/guide/array/min-sub-array-len",
             "/guide/array/three-sum",
             "/guide/array/find-length-of-lcis",
+            "/guide/array/longest-consecutive",
           ],
         },
       ],
