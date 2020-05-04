@@ -22,7 +22,7 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [颜色分类](./docs/guide/array/sort-colors.md) [#75](https://leetcode-cn.com/problems/sort-colors/)
   + [数组中的第K个最大元素](./docs/guide/array/find-kth-largest.md) [#215](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
   + [合并两个有序数组](./docs/guide/array/merge-sorted-array.md) [#88](https://leetcode-cn.com/problems/merge-sorted-array/)
-  + [两数之和II - 输入有序数组](./docs/guide/array/two-sum.md) [#167](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+  + [两数之和II - 输入有序数组](./docs/guide/array/two-sum2.md) [#167](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
   + [验证回文串](./docs/guide/array/is-palindrome.md) [#125](https://leetcode-cn.com/problems/valid-palindrome/)
   + [反转字符串中的元音字母](./docs/guide/array/reverse-vowels.md) [#345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
   + [盛最多水的容器](./docs/guide/array/container-with-most-water.md) [#11](https://leetcode-cn.com/problems/container-with-most-water/)
