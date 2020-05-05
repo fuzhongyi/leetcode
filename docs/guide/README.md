@@ -33,3 +33,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [长度最小的子数组](./array/min-sub-array-len.md) [#209](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
   + [最长连续递增序列](./array/find-length-of-lcis.md) [#674](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
   + [最长连续序列](./array/longest-consecutive.md) [#128](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+  + [寻找两个有序数组的中位数](./array/find-median-sorted-arrays.md) [#4](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
