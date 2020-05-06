@@ -53,6 +53,7 @@ module.exports = {
             "/guide/array/find-length-of-lcis",
             "/guide/array/longest-consecutive",
             "/guide/array/find-median-sorted-arrays",
+            "/guide/array/contains-duplicate",
           ],
         },
       ],
