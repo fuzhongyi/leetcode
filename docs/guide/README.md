@@ -35,3 +35,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [最长连续序列](./array/longest-consecutive.md) [#128](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
   + [寻找两个有序数组的中位数](./array/find-median-sorted-arrays.md) [#4](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
   + [存在重复元素](./array/contains-duplicate.md) [#217](https://leetcode-cn.com/problems/contains-duplicate/)
+  + [螺旋矩阵](./array/spiral-matrix.md) [#54](https://leetcode-cn.com/problems/spiral-matrix/)

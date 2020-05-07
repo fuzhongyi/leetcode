@@ -54,6 +54,7 @@ module.exports = {
             "/guide/array/longest-consecutive",
             "/guide/array/find-median-sorted-arrays",
             "/guide/array/contains-duplicate",
+            "/guide/array/spiral-matrix",
           ],
         },
       ],
