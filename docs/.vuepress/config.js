@@ -55,6 +55,7 @@ module.exports = {
             "/guide/array/find-median-sorted-arrays",
             "/guide/array/contains-duplicate",
             "/guide/array/spiral-matrix",
+            "/guide/array/spiral-matrix2",
           ],
         },
       ],
