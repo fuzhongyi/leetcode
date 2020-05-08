@@ -22,6 +22,56 @@
  * @return {number[][]}
  */
 var generateMatrix = function(n) {
-
+    var matrix = Array.from({ length: n }, () => []);
+    var x = 0, y = 0;
+    var direction = 'right';
+    var bRight = n - 1;
+    var bBottom = n - 1;
+    var bLeft = 0;
+    var bTop = 1;
+    var i = 1;
+    while (i <= n * n) {
+      matrix[x][y] = i;
+      i++;
+      switch (direction) {
+        case 'right':
+          y++;
+          if (y > bRight) {
+            y = bRight;
+            bRight--;
+            x++;
+            direction = 'bottom';
+          }
+          break;
+        case 'bottom':
+          x++;
+          if (x > bBottom) {
+            x = bBottom;
+            bBottom--;
+            y--;
+            direction = 'left';
+          }
+          break;
+        case 'left':
+          y--;
+          if (y < bLeft) {
+            y = bLeft;
+            bLeft++;
+            x--;
+            direction = 'top';
+          }
+          break;
+        case 'top':
+          x--;
+          if (x < bTop) {
+            x = bTop;
+            bTop++;
+            y++;
+            direction = 'right';
+          }
+          break;
+      }
+    }
+    return matrix;
 };
 ```
