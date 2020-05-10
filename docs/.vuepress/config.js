@@ -56,6 +56,7 @@ module.exports = {
             "/guide/array/contains-duplicate",
             "/guide/array/spiral-matrix",
             "/guide/array/spiral-matrix2",
+            "/guide/array/rotate-array",
           ],
         },
       ],

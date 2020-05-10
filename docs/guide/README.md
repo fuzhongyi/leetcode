@@ -37,3 +37,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [存在重复元素](./array/contains-duplicate.md) [#217](https://leetcode-cn.com/problems/contains-duplicate/)
   + [螺旋矩阵](./array/spiral-matrix.md) [#54](https://leetcode-cn.com/problems/spiral-matrix/)
   + [螺旋矩阵 II](./array/spiral-matrix2.md) [#59](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+  + [旋转数组](./array/rotate-array.md) [#189](https://leetcode-cn.com/problems/rotate-array/)
