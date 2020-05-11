@@ -57,6 +57,7 @@ module.exports = {
             "/guide/array/spiral-matrix",
             "/guide/array/spiral-matrix2",
             "/guide/array/rotate-array",
+            "/guide/array/majority-element",
           ],
         },
       ],
