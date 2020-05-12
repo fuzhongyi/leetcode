@@ -39,3 +39,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [螺旋矩阵 II](./array/spiral-matrix2.md) [#59](https://leetcode-cn.com/problems/spiral-matrix-ii/)
   + [旋转数组](./array/rotate-array.md) [#189](https://leetcode-cn.com/problems/rotate-array/)
   + [多数元素](./array/majority-element.md) [#169](https://leetcode-cn.com/problems/majority-element/)
+  + [打乱数组](./array/shuffle-an-array.md) [#384](https://leetcode-cn.com/problems/shuffle-an-array/)
