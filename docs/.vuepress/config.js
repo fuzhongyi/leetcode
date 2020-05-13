@@ -33,6 +33,13 @@ module.exports = {
           ],
         },
         {
+          title: "字符串",
+          collapsable: false,
+          children: [
+            "/guide/string/longest-substring-without-repeating-characters",
+          ],
+        },
+        {
           title: "数组",
           collapsable: false,
           children: [

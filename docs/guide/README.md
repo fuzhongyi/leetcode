@@ -15,6 +15,9 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [爬楼梯](./recursion/climb-stairs.md) [#70](https://leetcode-cn.com/problems/climbing-stairs/)
   + [Pow(x, n)](./recursion/pow.md) [#50](https://leetcode-cn.com/problems/powx-n/)
   + [合并两个有序链表](./recursion/merge-two-lists.md) [#21](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+  
++ 字符串
+  + [无重复字符的最长子串](./string/longest-substring-without-repeating-characters.md) [#3](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
 + 数组
   + [移动零](./array/move-zeroes.md) [#283](https://leetcode-cn.com/problems/move-zeroes/)

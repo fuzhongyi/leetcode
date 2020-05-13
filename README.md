@@ -14,6 +14,9 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [Pow(x, n)](./docs/guide/recursion//pow.md) [#50](https://leetcode-cn.com/problems/powx-n/)
   + [合并两个有序链表](./docs/guide/recursion//merge-two-lists.md) [#21](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
++ 字符串
+  + [无重复字符的最长子串](./docs/guide/string/longest-substring-without-repeating-characters.md) [#3](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
 + 数组
   + [移动零](./docs/guide/array/move-zeroes.md) [#283](https://leetcode-cn.com/problems/move-zeroes/)
   + [移除元素](./docs/guide/array/remove-element.md) [#27](https://leetcode-cn.com/problems/remove-element/)
