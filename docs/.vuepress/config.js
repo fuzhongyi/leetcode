@@ -37,6 +37,7 @@ module.exports = {
           collapsable: false,
           children: [
             "/guide/string/longest-substring-without-repeating-characters",
+            "/guide/string/longest-common-prefix",
           ],
         },
         {
