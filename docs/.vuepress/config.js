@@ -38,6 +38,7 @@ module.exports = {
           children: [
             "/guide/string/longest-substring-without-repeating-characters",
             "/guide/string/longest-common-prefix",
+            "/guide/string/permutation-in-string",
           ],
         },
         {
