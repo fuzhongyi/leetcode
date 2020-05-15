@@ -24,7 +24,7 @@
 1. 输入的字符串只包含小写字母
 2. 两个字符串的长度都在 [1, 10,000] 之间
 
-#### 实现
+#### 实现 1 (超时)
 
 ```js
 /**
@@ -48,4 +48,37 @@ var checkInclusion = function(s1, s2) {
     }
     return false;
 };
+```
+
+#### 实现 2
+
+```js
+/**
+ * @param {string} s1
+ * @param {string} s2
+ * @return {boolean}
+ */
+var checkInclusion = function(s1, s2) {
+    if (s1.length > s2.length) return false;
+    // 创建一个字典
+    var dictionary = new Array(26).fill(0);
+    // 遍历 s1 上的字符，在字典上进行记录
+    for(var i = 0; i < s1.length; i++) {
+        var code = s1.charCodeAt(i) - 97;
+        dictionary[code]++;
+    }
+    // 之后统计 s2 上的字符，每当出现后在字典上减少一个
+    for(var start = 0, end = 0; end < s2.length; end++) {
+        var code = s2.charCodeAt(end) - 97;
+        dictionary[code]--;
+        // 当出现了 s1 中不存在的字符或者数量超过 s1 中字符量，向前移动
+        while (dictionary[code] < 0) {
+            dictionary[s2.charCodeAt(start) - 97]++;
+            start++;
+        }
+        // 如果此时出现全部符合同时长度与 s1 相同的子串，则查找成功
+        if (end - start + 1 === s1.length) return true;
+    }
+    return false;
+}
 ```
