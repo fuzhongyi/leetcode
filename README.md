@@ -18,6 +18,7 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [无重复字符的最长子串](./docs/guide/string/longest-substring-without-repeating-characters.md) [#3](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
   + [最长公共前缀](./docs/guide/string/longest-common-prefix.md) [#14](https://leetcode-cn.com/problems/longest-common-prefix/)
   + [字符串的排列](./docs/guide/string/permutation-in-string.md) [#567](https://leetcode-cn.com/problems/permutation-in-string/)
+  + [最长回文子串](./docs/guide/string/longest-palindromic-substring) [#5](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 
 + 数组
   + [移动零](./docs/guide/array/move-zeroes.md) [#283](https://leetcode-cn.com/problems/move-zeroes/)
