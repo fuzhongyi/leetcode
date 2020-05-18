@@ -10,6 +10,10 @@ module.exports = {
     editLinks: true,
     editLinkText: "在 GitHub 上编辑此页",
     lastUpdated: "上次更新",
+    algolia: {
+      apiKey: "977bb1b44d6a0196d3011ab21ce7871f",
+      indexName: "leetcode",
+    },
     nav: [
       { text: "指南", link: "/guide/" },
       { text: "博客", link: "https://xyue.me" },
