@@ -25,6 +25,25 @@
  * @return {string}
  */
 var longestPalindrome = function(s) {
-
+    if (s.length <= 1) return s;
+    var centerExpend = function(left, right) {
+        while (left >= 0 && right < s.length && s.charAt(left) === s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return s.substring(left + 1, right);
+    }
+    var palindrome = '';
+    for (var i = 0; i < s.length; i++) {
+        var palindrome1 = centerExpend(i, i);
+        var palindrome2 = centerExpend(i, i + 1);
+        if (palindrome1.length > palindrome.length) {
+            palindrome = palindrome1;
+        }
+        if (palindrome2.length > palindrome.length) {
+            palindrome = palindrome2;
+        }
+    }
+    return palindrome;
 };
 ```
