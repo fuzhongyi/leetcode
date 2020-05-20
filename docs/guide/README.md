@@ -17,6 +17,7 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [合并两个有序链表](./recursion/merge-two-lists.md) [#21](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
   
 + 字符串
+  + [实现 strStr()](./string/implement-strstr.md) [#28](https://leetcode-cn.com/problems/implement-strstr/)
   + [无重复字符的最长子串](./string/longest-substring-without-repeating-characters.md) [#3](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
   + [最长公共前缀](./string/longest-common-prefix.md) [#14](https://leetcode-cn.com/problems/longest-common-prefix/)
   + [字符串的排列](./string/permutation-in-string.md) [#567](https://leetcode-cn.com/problems/permutation-in-string/)

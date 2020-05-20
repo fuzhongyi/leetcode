@@ -40,6 +40,7 @@ module.exports = {
           title: "字符串",
           collapsable: false,
           children: [
+            "/guide/string/implement-strstr",
             "/guide/string/longest-substring-without-repeating-characters",
             "/guide/string/longest-common-prefix",
             "/guide/string/permutation-in-string",
