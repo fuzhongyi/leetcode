@@ -45,3 +45,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [旋转数组](./docs/guide/array/rotate-array.md) [#189](https://leetcode-cn.com/problems/rotate-array/)
   + [多数元素](./docs/guide/array/majority-element.md) [#169](https://leetcode-cn.com/problems/majority-element/)
   + [打乱数组](./docs/guide/array/shuffle-an-array.md) [#384](https://leetcode-cn.com/problems/shuffle-an-array/)
+  + [最大连续1的个数](./docs/guide/array/max-consecutive-ones.md) [#485](https://leetcode-cn.com/problems/max-consecutive-ones/)

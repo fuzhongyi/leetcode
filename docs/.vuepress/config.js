@@ -74,6 +74,7 @@ module.exports = {
             "/guide/array/rotate-array",
             "/guide/array/majority-element",
             "/guide/array/shuffle-an-array",
+            "/guide/array/max-consecutive-ones",
           ],
         },
       ],
