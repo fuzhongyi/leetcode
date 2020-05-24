@@ -46,3 +46,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [多数元素](./docs/guide/array/majority-element.md) [#169](https://leetcode-cn.com/problems/majority-element/)
   + [打乱数组](./docs/guide/array/shuffle-an-array.md) [#384](https://leetcode-cn.com/problems/shuffle-an-array/)
   + [最大连续1的个数](./docs/guide/array/max-consecutive-ones.md) [#485](https://leetcode-cn.com/problems/max-consecutive-ones/)
+  + [交错字符串](./docs/guide/array/interleaving-string.md) [#97](https://leetcode-cn.com/problems/interleaving-string/)

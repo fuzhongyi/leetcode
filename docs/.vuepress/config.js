@@ -75,6 +75,7 @@ module.exports = {
             "/guide/array/majority-element",
             "/guide/array/shuffle-an-array",
             "/guide/array/max-consecutive-ones",
+            "/guide/array/interleaving-string",
           ],
         },
       ],
