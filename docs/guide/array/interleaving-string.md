@@ -26,19 +26,19 @@
  * @return {boolean}
  */
 var isInterleave = function(s1, s2, s3) {
-    if (s1.length + s2.length !== s3.length) return false;
-    var arr1 = s1.split('');
-    var arr2 = s2.split('');
-    var arr3 = s3.split('');
-    for (var i = 0; i < arr3.length; i++) {
-        if (arr3[i] === arr1[0]) {
-            arr1.shift();
-        } else if(arr3[i] === arr2[0]) {
-            arr2.shift();
-        } else {
-            return false;
-        }
+  if (s1.length + s2.length !== s3.length) return false;
+  var dp = new Array(s1.length + 1).fill(new Array(s2.length + 1).fill(false));
+  for (var i = 0; i <= s1.length; i++) {
+    for (var j = 0; j <= s2.length; j++) {
+      if (i === 0 && j === 0) dp[i][j] = true;
+      else if (i === 0) dp[i][j] = s2[j - 1] === s3[i + j - 1] && dp[i][j - 1];
+      else if (j === 0) dp[i][j] = s1[i - 1] === s3[i + j - 1] && dp[i - 1][j];
+      else
+        dp[i][j] =
+          (s2[j - 1] === s3[i + j - 1] && dp[i][j - 1]) ||
+          (s1[i - 1] === s3[i + j - 1] && dp[i - 1][j]);
     }
-    return true;
+  }
+  return dp[s1.length][s2.length];
 };
 ```
