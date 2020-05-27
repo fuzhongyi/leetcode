@@ -46,6 +46,7 @@ module.exports = {
             "/guide/string/longest-common-prefix",
             "/guide/string/permutation-in-string",
             "/guide/string/longest-palindromic-substring",
+            "/guide/string/shortest-palindrome",
           ],
         },
         {
