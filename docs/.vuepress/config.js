@@ -71,6 +71,7 @@ module.exports = {
             "/guide/array/longest-consecutive",
             "/guide/array/find-median-sorted-arrays",
             "/guide/array/contains-duplicate",
+            "/guide/array/contains-duplicate2",
             "/guide/array/spiral-matrix",
             "/guide/array/spiral-matrix2",
             "/guide/array/rotate-array",
