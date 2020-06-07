@@ -79,6 +79,7 @@ module.exports = {
             "/guide/array/shuffle-an-array",
             "/guide/array/max-consecutive-ones",
             "/guide/array/interleaving-string",
+            "/guide/array/jump-game",
           ],
         },
       ],
