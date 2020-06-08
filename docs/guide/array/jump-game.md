@@ -30,28 +30,15 @@
  * @return {boolean}
  */
 var canJump = function(nums) {
-    var p = -1;
-    if (nums.length === 1) return true;
-    if (nums[0] === 0) return false;
-    for (var i = 0; i < nums.length - 1; i++) {
-        if(nums[i] - nums[i + 1] === 1) {
-            if (nums[i + 1] === 0 && i + 1 !== nums.length - 1 && (p === -1 || nums[p] <= nums[p + 1])) {
-                return false;
+    var rightMost = 0;
+    for (var i = 0; i < nums.length; i++) {
+        if (i <= rightMost) {
+            rightMost = Math.max(rightMost, i + nums[i]);
+            if (rightMost >= nums.length - 1) {
+                return true;
             }
-        } else if (nums[i] === 0) {
-            for (var j = i + 1; j <= nums[i - 1] + i; j++) {
-                if (nums[j] !== 0) {
-                    break;
-                } else {
-                    if (j === nums[i - 1] + i) {
-                        return false;
-                    }
-                }
-            }
-        } else {
-            p = i;
         }
     }
-    return true;
+    return false;
 };
 ```
