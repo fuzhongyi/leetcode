@@ -80,6 +80,7 @@ module.exports = {
             "/guide/array/max-consecutive-ones",
             "/guide/array/interleaving-string",
             "/guide/array/jump-game",
+            "/guide/array/jump-game2",
           ],
         },
       ],
