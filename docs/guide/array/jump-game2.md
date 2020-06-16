@@ -27,6 +27,16 @@
  * @return {number}
  */
 var jump = function(nums) {
-
+    var count = 0;
+    var rightMost = 0;
+    var end = 0;
+    for (var i = 0; i < nums.length - 1; i++) {
+        rightMost = Math.max(rightMost, i + nums[i]);
+        if (i === end) {
+            end = rightMost;
+            count++;
+        }
+    }
+    return count;
 };
 ```
