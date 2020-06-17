@@ -81,6 +81,7 @@ module.exports = {
             "/guide/array/interleaving-string",
             "/guide/array/jump-game",
             "/guide/array/jump-game2",
+            "/guide/array/jump-game3",
           ],
         },
       ],

@@ -54,3 +54,4 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [交错字符串](./array/interleaving-string.md) [#97](https://leetcode-cn.com/problems/interleaving-string/)
   + [跳跃游戏](./array/jump-game.md) [#55](https://leetcode-cn.com/problems/jump-game/)
   + [跳跃游戏 II](./array/jump-game2.md) [#45](https://leetcode-cn.com/problems/jump-game-ii/)
+  + [跳跃游戏 III](./array/jump-game3.md) [#1306](https://leetcode-cn.com/problems/jump-game-iii/)
