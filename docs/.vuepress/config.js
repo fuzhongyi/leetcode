@@ -82,6 +82,7 @@ module.exports = {
             "/guide/array/jump-game",
             "/guide/array/jump-game2",
             "/guide/array/jump-game3",
+            "/guide/array/num-subarray-bounded-max",
           ],
         },
       ],
