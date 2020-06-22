@@ -31,6 +31,22 @@ R = 3
  * @return {number}
  */
 var numSubarrayBoundedMax = function(A, L, R) {
-
+  var count = 0;
+  var lastLeft = -1;
+  var left = -1;
+  for (var i = 0; i < A.length; i++) {
+    if (A[i] <= R) {
+      if (A[i] >= L && A[i] <= R) {
+        lastLeft = i
+        count += i - left;
+      } else {
+        count += lastLeft - left;
+      }
+    } else {
+      lastLeft = i;
+      left = i;
+    }
+  }
+  return count;
 };
 ```
