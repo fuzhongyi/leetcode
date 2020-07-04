@@ -64,6 +64,7 @@ module.exports = {
             "/guide/array/two-sum2",
             "/guide/array/three-sum",
             "/guide/array/is-palindrome",
+            "/guide/array/is-palindrome2",
             "/guide/array/reverse-vowels",
             "/guide/array/container-with-most-water",
             "/guide/array/min-sub-array-len",

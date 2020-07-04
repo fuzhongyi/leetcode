@@ -37,6 +37,7 @@ leetcode 题解，记录自己 leetcode 的解题之路
   + [两数之和II - 输入有序数组](./array/two-sum2.md) [#167](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
   + [三数之和](./array/three-sum.md) [#15](https://leetcode-cn.com/problems/3sum/)
   + [验证回文串](./array/is-palindrome.md) [#125](https://leetcode-cn.com/problems/valid-palindrome/)
+  + [验证回文字符串 Ⅱ](./array/is-palindrome2.md) [#680](https://leetcode-cn.com/problems/valid-palindrome-ii/)
   + [反转字符串中的元音字母](./array/reverse-vowels.md) [#345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
   + [盛最多水的容器](./array/container-with-most-water.md) [#11](https://leetcode-cn.com/problems/container-with-most-water/)
   + [长度最小的子数组](./array/min-sub-array-len.md) [#209](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
