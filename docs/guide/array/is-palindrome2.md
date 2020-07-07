@@ -31,6 +31,23 @@
  * @return {boolean}
  */
 var validPalindrome = function(s) {
-
+  var n = s.length;
+  if (n < 2) {
+    return s;
+  }
+  var isPalindrome = (left, right) => {
+    while (left < right) {
+      if (s[left++] != s[right--]) {
+        return false;
+      }
+    }
+    return true;
+  };
+  for (var i = 0; i < n; i++) {
+    if (s[i] != s[n - i - 1]) {
+      return isPalindrome(i + 1, n - i - 1) || isPalindrome(i, n - 1 - i - 1);
+    }
+  }
+  return true;
 };
 ```
